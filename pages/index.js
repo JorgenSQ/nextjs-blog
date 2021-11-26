@@ -12,10 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tempore deleniti earum quisquam. Impedit incidunt dicta dolores ipsum cupiditate
-          laboriosam in quis temporibus corrupti, minus illum architecto unde. Atque, quod.
-        </p>
+        <p>All external posts</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
